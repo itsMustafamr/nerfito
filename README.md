@@ -44,4 +44,22 @@ then we need - evaluation code
 
 Neural network 
 - Inputs: ray direction, ray origin
+    - Ray direction: direction of the ray from the camera (theta, pi)
+     Ray origin: position of the camera (x, y, z)
 - Outputs: color, opacity
+    - Color: RGB color of the pixel
+    - Opacity: how much light is absorbed by the object at that point
+- Architectue: 3 layers of 256 neurons each
+
+
+model.py
+ - model class
+ - forward function
+ - loss function
+utils.py
+ - ray sampling
+ - volume sampling
+ - volume rendering
+train.py
+eval.py
+ - generate one image from a camera position
