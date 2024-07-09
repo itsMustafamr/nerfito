@@ -1,22 +1,18 @@
-""" Evaluate a trained model, generating an image"""
+""" Evaluates a trained model, generating an image."""
 
-import torch 
-import utils
+import torch
+import geometry
+import matplotlib.pyplot as plt
 
 if __name__ == "__main__":
 
-    # load the model
+    # Choose the model checkpoint
+    # Choose a camera position
+    # Choose a camera direction
+    # Choose the size of the image
 
-    # choose a camera position
+    # Load the model
 
-    # choose a camera direction 
-    
-    # choose the size of the image
-
-    # load the model
-
-    # Perform interence 
+    # Perform inference
 
     # Render the image
-
-    
